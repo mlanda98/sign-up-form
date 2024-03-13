@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face{
+  src: url(norse.ttf);
+  font-family: norse;
+}
+
+.container{
+  display: flex;
+
+}
+.background-image{
+  width: 550px;
+  height: 1000px;
+  position: relative;
+
+}
+
+.paragraph{
+  width: 400px;
+  
+}
+
+.logo-container{
+  background: rgba(0, 0, 0, 0.472);
+  display: flex;
+  position:absolute;
+  top: 200px;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  width: 550px
+  
+}
+
+.logo{
+  height: 200px;
+  
+  
+  
+}
+
+.odin-name{
+  color: white;
+  font-family: norse;
+  font-size: 140px;
+}
+
+.paragraph-container
+
