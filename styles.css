@@ -1,6 +1,8 @@
 body{
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f3f4f5;
 }
 
 @font-face{
@@ -11,6 +13,7 @@ body{
 .container{
   display: flex;
 
+
 }
 .background-image{
   width: 550px;
@@ -20,7 +23,8 @@ body{
 }
 
 .paragraph{
-  width: 400px;
+  width: 100px;
+  
   
 }
 
@@ -31,13 +35,13 @@ body{
   top: 200px;
   align-items: center;
   justify-content: center;
-  height: 220px;
+  height: 160px;
   width: 550px
   
 }
 
 .logo{
-  height: 200px;
+  height: 150px;
   
   
   
@@ -46,8 +50,98 @@ body{
 .odin-name{
   color: white;
   font-family: norse;
-  font-size: 140px;
+  font-size: 120px;
 }
 
-.paragraph-container
 
+
+.paragraph{
+  padding-top: 120px;
+  font-size: 25px;
+  padding-left: 30px;
+  width: 760px;
+  font-weight: bold;
+  
+}
+
+.paragraph-two{
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.form-container{
+  margin-top: 74px;
+  background: white;
+  height: 300px;
+  padding-top: 10px;
+  width: 980px;
+  box-shadow:2px 4px 3px rgba(0, 0, 0, 0.1);
+}
+
+h2{
+  margin-left: 90px;
+}
+.first-row, .second-row, .third-row{
+  display: flex;
+  padding-top: 5px;
+}
+
+.names{
+  font-size: 12px;
+  color: rgb(93, 91, 91);
+  font-weight: bold;
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 90px;
+  
+
+  
+}
+
+input{
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  width: 250px;
+  
+  
+}
+
+input:invalid{
+  border-color: red;
+}
+
+input:focus{
+  border-color: rgb(12, 125, 230);
+  box-shadow:3px 3px 2px rgba(0, 0, 0, 0.1);
+}
+
+input:invalid{
+  border-color: red;
+}
+
+.button{
+  color: white;
+  background-color: #596D48;
+  padding: 15px 50px 15px 50px;
+  margin-top: 80px;
+  margin-left: 90px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  box-shadow:3px 4px 3px rgba(0, 0, 0, 0.1);
+}
+
+.account{
+  margin-left: 90px;
+}
+
+.log-in{
+  color:#596D48;
+}
